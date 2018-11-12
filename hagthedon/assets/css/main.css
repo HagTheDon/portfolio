@@ -1306,11 +1306,12 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg3.jpg");
-		background-repeat: repeat, no-repeat;
-		background-size: auto, 100% 100%;
-		background-attachment: fixed;
-		overflow-y: scroll;
+		 	background-image:url('images/looping-space.gif');
+		    background-size:100%;
+		    background-repeat: repeat-y;
+		    background-attachment: fixed;
+		    height:100%;
+		    width:100%;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1366,7 +1367,7 @@ input, select, textarea {
 
 	strong, b, h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #363636;
+		color: #513c5d;
 	}
 
 	h1 {
@@ -1533,7 +1534,7 @@ input, select, textarea {
 
 		header > p {
 			margin: 0.5em 0 0 0;
-			color: #aaa;
+			color: #513c5d;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2030,8 +2031,8 @@ input, select, textarea {
 						margin-top: -1.375em;
 						width: 2.75em;
 						height: 2.75em;
-						background: #000;
-						background: rgba(0, 0, 0, 0.75);
+						background: #513c5d;
+						background: rgba(81, 60, 93, 0.77);
 						color: #ffffff;
 						text-align: center;
 						line-height: 2.75em;
@@ -2126,7 +2127,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		color: rgba(255, 255, 255, 0.45);
+		color: rgb(255, 255, 255);
 		text-align: center;
 		padding: 2em 0 0 0;
 		font-size: 0.75em;
